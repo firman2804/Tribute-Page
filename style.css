@@ -1,0 +1,93 @@
+:root {
+  --bg-primary: #eee;
+  --bg-secondary: #fff;
+  --font-primery: #333;
+  --link: #477ca7;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+main {
+  background-color: var(--bg-primary);
+  padding: 20px;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 2.3em;
+}
+
+#img-div {
+  background-color: var(--bg-secondary);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+img#image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+p#img-caption {
+  margin: 15px 0;
+}
+
+#tribute-info h3 {
+  margin: 70px 0 40px 0;
+}
+
+ul {
+  text-align: justify;
+  width: 40%;
+  margin: 0 auto;
+}
+
+ul li {
+  margin: 15px 0;
+  line-height: 1.7rem;
+}
+
+#year {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1.15rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+}
+
+footer p a#tribute-link {
+  color: var(--link);
+}
+
+/* breakpoin */
+@media screen and (max-width: 800px) {
+  ul {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  ul {
+    width: 90%;
+  }
+}
